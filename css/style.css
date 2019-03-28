@@ -1,9 +1,58 @@
-/** Primary Colors Schema **/
+/* Fonts */
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
+/* Primary Colors Schema */
 :root {
     --darkpurple: #151942;
     --lightpurple: #2d2f85;
     --orange: #ff4522;
     --lightgray: #ccc;
     --white: #fff;
+}
+
+/* RESET DEFAULT CSS */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkpurple)
+}
+
+/* General */
+body {
+    background-color: var(--lightgray);
+    font-family: 'Open Sans Hebrew', serif;
+    direction: rtl;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+
+header {
+    background-color: var(--white)
+}
+
+.logo {
+    height: 40px;
+    max-width: 74px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
