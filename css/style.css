@@ -1,0 +1,9 @@
+/** Primary Colors Schema **/
+
+:root {
+    --darkpurple: #151942;
+    --lightpurple: #2d2f85;
+    --orange: #ff4522;
+    --lightgray: #ccc;
+    --white: #fff;
+}
