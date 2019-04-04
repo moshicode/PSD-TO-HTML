@@ -136,8 +136,9 @@ header {
 }
 
 .seprator {
+    background-color: var(--lightgray);
     height: 2px;
-    border-top: 1px solid var(--lightgray);
+    border: none;
     margin: 0;
 }
 
