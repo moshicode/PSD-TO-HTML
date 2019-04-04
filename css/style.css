@@ -253,6 +253,10 @@ main {
     border-bottom: 2px solid var(--gray);
 }
 
+.entry-post:hover .entry-title a {
+    text-decoration: underline;
+}
+
 .entry-post h3 {
     font-size: 20px;
     color: var(--darkpurple);
@@ -260,7 +264,7 @@ main {
 }
 
 .entry-title {
-    max-height: 45px;
+    max-height: 50px;
     overflow: hidden;
 }
 
