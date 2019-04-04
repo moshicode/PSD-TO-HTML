@@ -7,46 +7,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PSD TO HTML</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
-        <div id="navbar">
-            <div class="container top-content">
-                <div class="logo">
-                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
-                </div>
-                <nav class="side-menu">
-                    <ul>
-                        <li><a class="active" href="#">כותרת</a></li>
-                        <li><a href="#">כותרת</a></li>
-                        <li><a href="#">כותרת</a></li>
-                    </ul>
-                </nav>
+        <!-- <div id="navbar"> -->
+        <div class="container top-content">
+            <div class="logo">
+                <a href="#"><img src="./img/logo.png" alt="blog logo"></a>
             </div>
-            <hr>
-            <div class="container bottom-content">
-                <nav class="catagories-navbar">
-                    <ul>
-                        <li><a href="#">כותרת</a></li>
-                        <li><a href="#">כותרת</a></li>
-                        <li><a href="#">כותרת</a></li>
-                        <li><a href="#">כותרת</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="side-menu">
+                <ul>
+                    <li><a class="active" href="#">כותרת</a></li>
+                    <li><a href="#">כותרת</a></li>
+                    <li><a href="#">כותרת</a></li>
+                </ul>
+            </nav>
         </div>
+        <hr class="seprator">
+        <div class="container bottom-content">
+            <nav class="catagories-navbar">
+                <ul>
+                    <li><a href="#">גאדג'טים וטכנולוגיה</a></li>
+                    <li><a href="#">תחביבים ופנאי</a></li>
+                    <li><a href="#">טיפוח ויופי</a></li>
+                    <li><a href="#">בית וגינה</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- </div> -->
     </header>
 
     <main class="container">
-        <article>
-            <div class="entry-img">
-                <img src="img/img1.jpg" alt="image">
-            </div>
-            <h3>title</h3>
-            <div class="entry-meta"></div>
-        </article>
+        <div class="grid-container">
+            <article class="entry-post">
+                <div class="entry-img">
+                    <a href="#">
+                        <img src="img/img-1.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="entry-wrap">
+                    <div class="entry-title">
+                        <h3><a href="#">אחרי המון עיכובים: אפל מחסלת את משטח הטעינה Airpower </a></h3>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="username-meta">מושיקו</div>
+                        <div class="comments-meta">23</div>
+                        <div class="likes-meta">2</div>
+                    </div>
+                    <div class="entry-content">יותר משנה וחצי מאז שהכריזו עליו, באפל החליטו לבטל את השקת המוצר בעקבות
+                        מגבלות טכנולוגיות שלא הצליחו לעמוד בהן.</div>
+                    <a class="read-more-btn" href="#">קרא עוד</a>
+                </div>
+            </article>
+            <article class="entry-post">
+                <div class="entry-img">
+                    <a href="#">
+                        <img src="img/img-2.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="entry-wrap">
+                    <div class="entry-title">
+                        <h3><a href="#">תמיד חלמתם להיות טייסי קרב?</a></h3>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="username-meta">Admin</div>
+                        <div class="comments-meta">23</div>
+                        <div class="likes-meta">2</div>
+                    </div>
+                    <div class="entry-content">מוכנים להמריא לשחקים ולצלול לסיפור מלודרמטי משונה? Ace Combat 7 יעשה לכם
+                        נעים בכנפיים</div>
+                    <a class="read-more-btn" href="#">קרא עוד</a>
+                </div>
+            </article>
+            <article class="entry-post">
+                <div class="entry-img">
+                    <a href="#">
+                        <img src="img/img-3.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="entry-wrap">
+                    <div class="entry-title">
+                        <h3><a href="#">מתקפת סייבר צפויה על ישראל שבוע הבא - כל מה שצריך לדעת</a></h3>
+                    </div>
+                    <div class="entry-meta">
+                        <div class="username-meta">Admin</div>
+                        <div class="comments-meta">23</div>
+                        <div class="likes-meta">2</div>
+                    </div>
+                    <div class="entry-content">כמדי שנה האקרים מרחבי העולם מתארגנים במסגרת מבצע בשם Op-Israel כדי לתקוף
+                        ישראלים באינטרנט ב-7 באפריל. </div>
+                    <a class="read-more-btn" href="#">קרא עוד</a>
+                </div>
+            </article>
+        </div>
+        <div class="row">
+            <button class="load-btn">טען עוד</button>
+        </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>דף הבית</li>
+                    <li>מי אנחנו</li>
+                    <li>צור קשר</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
 </body>
 
