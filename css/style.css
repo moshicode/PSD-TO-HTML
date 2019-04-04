@@ -1,23 +1,24 @@
-/*
-1. FONTS
-2. PRIMARY SCHEMA
-3. RESET CSS
-4. GENERAL
-5. BUTTONS
-6. HEADER
-7. MAIN
-    + ARTICLE LAYOUT
-8. FOOTER
-*/
+/* Author: Moshiko Shamir */
+/*=============================================================
+    CSS INDEX
+    =========
+	01. FONTS
+	02. PRIMARY SCHEMA
+	03. RESET CSS
+	04. GENERAL
+	05. BUTTONS
+	06. HEADER
+	07. MAIN
+	08. FOOTER
+  =============================================================*/
 
-
-/* 
-1. Fonts 
+/* ===
+01. Google Fonts 
 */
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 /* 
-2. Primary Schema 
+02. Primary Schema 
 */
 :root {
     --mainfont: 'Open Sans Hebrew', sans-serif;
@@ -31,7 +32,7 @@
 }
 
 /* 
-3. RESET DEFAULT CSS
+03. RESET DEFAULT CSS
 */
 
 html {
@@ -68,7 +69,7 @@ a {
 }
 
 /* 
-4. General
+04. General
 */
 
 * {
@@ -96,7 +97,7 @@ body {
 }
 
 /*
-5. Buttons
+05. Buttons
 */
 
 .read-more-btn {
@@ -118,7 +119,7 @@ body {
 }
 
 /*
-5. Header
+06. Header
 */
 
 
@@ -203,7 +204,9 @@ nav a {
     height: calc(var(--headerheight) - 60%);
 }
 
-/** Main **/
+/*
+07. Main
+*/
 
 main {
     grid-area: main;
@@ -312,7 +315,10 @@ main {
     right: 0;
 }
 
-/* Footer */
+/*
+08. Footer
+*/
+
 footer {
     grid-area: foot;
     background-color: var(--white);
