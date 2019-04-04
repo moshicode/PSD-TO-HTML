@@ -15,11 +15,14 @@
 /* ===
 01. Google Fonts 
 */
+
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
 
 /* 
 02. Primary Schema 
 */
+
 :root {
     --mainfont: 'Open Sans Hebrew', sans-serif;
     --headerheight: 100px;
@@ -30,6 +33,7 @@
     --gray: #ccc;
     --white: #fff;
 }
+
 
 /* 
 03. RESET DEFAULT CSS
@@ -75,6 +79,7 @@ a {
 * {
     font-family: var(--mainfont);
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 body {
@@ -95,6 +100,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 /*
 05. Buttons
@@ -118,10 +124,10 @@ body {
     font-size: 22px;
 }
 
+
 /*
 06. Header
 */
-
 
 header {
     grid-area: head;
@@ -203,6 +209,7 @@ nav a {
     align-items: center;
     height: calc(var(--headerheight) - 60%);
 }
+
 
 /*
 07. Main
@@ -314,6 +321,7 @@ main {
     height: 44px;
     right: 0;
 }
+
 
 /*
 08. Footer
