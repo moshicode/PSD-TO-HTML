@@ -241,10 +241,11 @@ main {
 
 /** Ad Layout **/
 .entry-ad {
-    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
+    border-bottom: 2px solid var(--gray);
 }
 
 /** Article Layout **/
