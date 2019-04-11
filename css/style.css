@@ -119,6 +119,10 @@ body {
     border-radius: 10px;
 }
 
+.read-more-btn:hover {
+    background-color: var(--darkpurple);
+}
+
 .load-btn {
     border: 3px solid var(--darkpurple);
     background-color: transparent;
@@ -159,6 +163,16 @@ header {
     max-width: 74px;
 }
 
+.catagories-navbar ul li a:hover {
+    background-color: var(--lightpurple);
+    color: var(--white);
+}
+
+.catagories-navbar ul li a {
+    margin-left: 10px;
+    padding: 2px 5px;
+}
+
 nav ul {
     display: flex;
     margin: 0;
@@ -167,10 +181,6 @@ nav ul {
 
 nav ul li {
     list-style: none;
-}
-
-nav ul li a {
-    margin-left: 20px;
 }
 
 .cat-menu {
